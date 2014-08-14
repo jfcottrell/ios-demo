@@ -22,6 +22,17 @@
 		5237D0E1199A98C900DE55B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5237D0C0199A98C800DE55B5 /* UIKit.framework */; };
 		5237D0E9199A98C900DE55B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5237D0E7199A98C900DE55B5 /* InfoPlist.strings */; };
 		5237D0EB199A98C900DE55B5 /* ScreenMockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D0EA199A98C900DE55B5 /* ScreenMockDemoTests.m */; };
+		5237D0F6199AA0E500DE55B5 /* MultiScreenScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D0F5199AA0E500DE55B5 /* MultiScreenScrollViewController.m */; };
+		5237D0F9199AAA9B00DE55B5 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D0F8199AAA9B00DE55B5 /* MainTableViewController.m */; };
+		5237D0FC199AB2D900DE55B5 /* VerticalButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D0FB199AB2D900DE55B5 /* VerticalButtonViewController.m */; };
+		5237D0FF199BACDB00DE55B5 /* SecondaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D0FE199BACDA00DE55B5 /* SecondaryTableViewController.m */; };
+		5237D102199BB10400DE55B5 /* SecondaryTVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D101199BB10400DE55B5 /* SecondaryTVDetailViewController.m */; };
+		5237D105199BBCE700DE55B5 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D104199BBCE700DE55B5 /* iCarousel.m */; };
+		5237D108199BBF2700DE55B5 /* CoverFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D107199BBF2700DE55B5 /* CoverFlowViewController.m */; };
+		5237D10B199BE1CF00DE55B5 /* btSimplePopUP.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D10A199BE1CF00DE55B5 /* btSimplePopUP.m */; };
+		5237D10E199BE21B00DE55B5 /* PopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5237D10D199BE21B00DE55B5 /* PopupViewController.m */; };
+		52BC6A28199D101700EC92BA /* SideScrollMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6A27199D101700EC92BA /* SideScrollMenuView.m */; };
+		52BC6A2B199D148C00EC92BA /* SideScrollMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BC6A2A199D148C00EC92BA /* SideScrollMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +67,28 @@
 		5237D0E6199A98C900DE55B5 /* ScreenMockDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenMockDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5237D0E8199A98C900DE55B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5237D0EA199A98C900DE55B5 /* ScreenMockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenMockDemoTests.m; sourceTree = "<group>"; };
+		5237D0F4199AA0E500DE55B5 /* MultiScreenScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiScreenScrollViewController.h; sourceTree = "<group>"; };
+		5237D0F5199AA0E500DE55B5 /* MultiScreenScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiScreenScrollViewController.m; sourceTree = "<group>"; };
+		5237D0F7199AAA9B00DE55B5 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		5237D0F8199AAA9B00DE55B5 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		5237D0FA199AB2D900DE55B5 /* VerticalButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalButtonViewController.h; sourceTree = "<group>"; };
+		5237D0FB199AB2D900DE55B5 /* VerticalButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalButtonViewController.m; sourceTree = "<group>"; };
+		5237D0FD199BACDA00DE55B5 /* SecondaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondaryTableViewController.h; sourceTree = "<group>"; };
+		5237D0FE199BACDA00DE55B5 /* SecondaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondaryTableViewController.m; sourceTree = "<group>"; };
+		5237D100199BB10400DE55B5 /* SecondaryTVDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondaryTVDetailViewController.h; sourceTree = "<group>"; };
+		5237D101199BB10400DE55B5 /* SecondaryTVDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondaryTVDetailViewController.m; sourceTree = "<group>"; };
+		5237D103199BBCE700DE55B5 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		5237D104199BBCE700DE55B5 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		5237D106199BBF2700DE55B5 /* CoverFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoverFlowViewController.h; sourceTree = "<group>"; };
+		5237D107199BBF2700DE55B5 /* CoverFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoverFlowViewController.m; sourceTree = "<group>"; };
+		5237D109199BE1CF00DE55B5 /* btSimplePopUP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = btSimplePopUP.h; sourceTree = "<group>"; };
+		5237D10A199BE1CF00DE55B5 /* btSimplePopUP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = btSimplePopUP.m; sourceTree = "<group>"; };
+		5237D10C199BE21B00DE55B5 /* PopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupViewController.h; sourceTree = "<group>"; };
+		5237D10D199BE21B00DE55B5 /* PopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupViewController.m; sourceTree = "<group>"; };
+		52BC6A26199D101700EC92BA /* SideScrollMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollMenuView.h; sourceTree = "<group>"; };
+		52BC6A27199D101700EC92BA /* SideScrollMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollMenuView.m; sourceTree = "<group>"; };
+		52BC6A29199D148C00EC92BA /* SideScrollMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideScrollMenuViewController.h; sourceTree = "<group>"; };
+		52BC6A2A199D148C00EC92BA /* SideScrollMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideScrollMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +148,10 @@
 		5237D0C2199A98C800DE55B5 /* ScreenMockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5237D109199BE1CF00DE55B5 /* btSimplePopUP.h */,
+				5237D10A199BE1CF00DE55B5 /* btSimplePopUP.m */,
+				5237D103199BBCE700DE55B5 /* iCarousel.h */,
+				5237D104199BBCE700DE55B5 /* iCarousel.m */,
 				5237D0CB199A98C800DE55B5 /* AppDelegate.h */,
 				5237D0CC199A98C800DE55B5 /* AppDelegate.m */,
 				5237D0CE199A98C800DE55B5 /* Main.storyboard */,
@@ -124,6 +161,24 @@
 				5237D0D5199A98C800DE55B5 /* SecondViewController.m */,
 				5237D0D7199A98C800DE55B5 /* Images.xcassets */,
 				5237D0C3199A98C800DE55B5 /* Supporting Files */,
+				5237D0F4199AA0E500DE55B5 /* MultiScreenScrollViewController.h */,
+				5237D0F5199AA0E500DE55B5 /* MultiScreenScrollViewController.m */,
+				5237D0F7199AAA9B00DE55B5 /* MainTableViewController.h */,
+				5237D0F8199AAA9B00DE55B5 /* MainTableViewController.m */,
+				5237D0FA199AB2D900DE55B5 /* VerticalButtonViewController.h */,
+				5237D0FB199AB2D900DE55B5 /* VerticalButtonViewController.m */,
+				5237D0FD199BACDA00DE55B5 /* SecondaryTableViewController.h */,
+				5237D0FE199BACDA00DE55B5 /* SecondaryTableViewController.m */,
+				5237D100199BB10400DE55B5 /* SecondaryTVDetailViewController.h */,
+				5237D101199BB10400DE55B5 /* SecondaryTVDetailViewController.m */,
+				5237D106199BBF2700DE55B5 /* CoverFlowViewController.h */,
+				5237D107199BBF2700DE55B5 /* CoverFlowViewController.m */,
+				5237D10C199BE21B00DE55B5 /* PopupViewController.h */,
+				5237D10D199BE21B00DE55B5 /* PopupViewController.m */,
+				52BC6A26199D101700EC92BA /* SideScrollMenuView.h */,
+				52BC6A27199D101700EC92BA /* SideScrollMenuView.m */,
+				52BC6A29199D148C00EC92BA /* SideScrollMenuViewController.h */,
+				52BC6A2A199D148C00EC92BA /* SideScrollMenuViewController.m */,
 			);
 			path = ScreenMockDemo;
 			sourceTree = "<group>";
@@ -254,9 +309,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5237D0FF199BACDB00DE55B5 /* SecondaryTableViewController.m in Sources */,
+				52BC6A28199D101700EC92BA /* SideScrollMenuView.m in Sources */,
+				52BC6A2B199D148C00EC92BA /* SideScrollMenuViewController.m in Sources */,
+				5237D105199BBCE700DE55B5 /* iCarousel.m in Sources */,
 				5237D0D6199A98C800DE55B5 /* SecondViewController.m in Sources */,
+				5237D102199BB10400DE55B5 /* SecondaryTVDetailViewController.m in Sources */,
 				5237D0CD199A98C800DE55B5 /* AppDelegate.m in Sources */,
+				5237D0F9199AAA9B00DE55B5 /* MainTableViewController.m in Sources */,
+				5237D0FC199AB2D900DE55B5 /* VerticalButtonViewController.m in Sources */,
+				5237D10E199BE21B00DE55B5 /* PopupViewController.m in Sources */,
 				5237D0D3199A98C800DE55B5 /* FirstViewController.m in Sources */,
+				5237D0F6199AA0E500DE55B5 /* MultiScreenScrollViewController.m in Sources */,
+				5237D108199BBF2700DE55B5 /* CoverFlowViewController.m in Sources */,
+				5237D10B199BE1CF00DE55B5 /* btSimplePopUP.m in Sources */,
 				5237D0C9199A98C800DE55B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +528,7 @@
 				5237D0F0199A98C900DE55B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5237D0F1199A98C900DE55B5 /* Build configuration list for PBXNativeTarget "ScreenMockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +537,7 @@
 				5237D0F3199A98C900DE55B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
